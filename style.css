@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Configurações globais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+header {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+header span {
+    color: #6150C1;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    margin: 0 10px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #6150C1;
+}
+
+button {
+    padding: 15px 30px; 
+    border: none;
+    background-color: #6150C1;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Main */
+
+.hello {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.presentation {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation h2 {
+    font-size: 54px;
+    color: #6150C1;
+}
+
+.presentation span {
+    color: black;
+    display: block;
+}
+
+.presentation p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.presentation button {
+    width: 150px;
+}
+
+.presentation ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.socialmedia img {
+    width: 20px;
+}
+
+.profile {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profile img {
+    width: 400px;
+}
+
+/* Skills */
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.skills-grid {
+    width: 100%;
+}
+
+.skills h2 {
+    font-size: 32px;
+    padding: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.skills li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.skills img {
+    width: 90px;
+}
+
+.skills p {
+    font-size: 18px;
+}
+
+/* Feedbacks */
+
+.feedbacks {
+    width: 100vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6150C1;
+    padding: 20px 0px 50px 0px;
+}
+
+.feedbacks h2 {
+    font-size: 32px;
+    padding: 30px;
+    color: #fff;
+}
+
+.client-grid {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.client {
+    width: calc(100% / 4 - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.client img {
+    width: 124px;
+    border-radius: 50%;
+}
+
+.rating {
+    display: flex;
+    gap: 15px;
+}
+
+.rating span {
+    width: 10px;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Rodapé */
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
